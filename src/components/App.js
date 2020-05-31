@@ -3,7 +3,7 @@ import { ThemeContext, themes } from "../theme-context";
 import Layout from "./Layout";
 
 function App() {
-  const [isThemeDark, setIsThemeDark] = useState(true);
+  const [isThemeDark, setIsThemeDark] = useState(false);
 
   const handleThemeToggler = (e) => {
   console.log("theme toggler", isThemeDark);
